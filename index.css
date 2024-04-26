@@ -22,12 +22,12 @@ body{
     align-items: center;
     gap: 1.5vmin;
 }
-.btn{
+.box{
     height: 18vmin;
     width: 18vmin;
     border-radius: 1rem;
     border: none;
-    font-size: 8rem;
+    font-size: 4rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -42,5 +42,27 @@ body{
     border-radius: .5rem;
     border: none;
     box-shadow: 0 0 1rem rgba(0, 0, 0, .4);
-
+}
+.new{
+    visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1px;
+}
+.Winmsg{
+    margin-top: 5px;
+    height: 35px;
+    color: aqua;
+}
+.New-game{
+    height: 2rem;
+    width: 9rem;
+    background-color: black;
+    color: aliceblue;
+    border-radius: .5rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, .4);
+    margin-bottom: 10px;
 }
